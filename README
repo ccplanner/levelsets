@@ -1,1 +1,10 @@
 This is a collection of level sets for the Chip's Challange Planner
+
+c4 is the perl script to convert between level formats.
+
+For example classical.txt was generated from classical.dat with the command:
+
+c4 classical.dat classical.txt
+
+TXT level format information is here: http://manpages.ubuntu.com/manpages/hardy/man6/c4.6.html
+

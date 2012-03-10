@@ -1,0 +1,359 @@
+ruleset ms
+
+%%%
+
+title   Easy
+passwd  MNFI
+
+map
+# # # # # # # # #
+# @ #   # E H   #
+#   #   # # #   #
+#   #   #       #
+#         #     #
+# # # #   #   # #
+#         #     #
+#   # #       # #
+# # # # # # # # #
+end
+
+%%%
+
+title   Chips
+passwd  YPIG
+chips   3
+
+map
+# # # # # # # # #
+# E # $ #   $   #
+# H #   #   #   #
+# @             #
+#   # # # #     #
+#   # $         #
+#   # # # #     #
+#               #
+# # # # # # # # #
+end
+
+%%%
+
+title   Hazard
+passwd  IWCV
+chips   4
+
+map
+# # # # # # # # #
+# @         , $ #
+#   , , ,       #
+#   & E H   ,   #
+#   & & &   ,   #
+#               #
+#   &   & & &   #
+# $ &     $ & $ #
+# # # # # # # # #
+end
+
+%%%
+
+title   Hints
+passwd  PVOD
+chips   1
+hint    This is easy
+
+map
+  # # #                                                 # # # #
+  # @ #                                                 # # # #
+  # ? #                                                 # # # #
+  #   #                                                 # # # #
+  # $ #                                                 # # # #
+  #   #                                                 # # # #
+  # H #                                                 # # # #
+  # E #                                                 # # # #
+  # # #                                                 # # # #
+                                                              #
+                                                              #
+                                                              #
+                                                              #
+                                                              #
+                                                              #
+                                                              #
+                                                              #
+                                                              #
+                                                              #
+                                                              #
+                                                              #
+                                                              #
+                                                              #
+                                                              #
+#                                                             #
+#                                                             #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+end
+
+%%%
+
+title   Easy as Pie
+passwd  RROS
+chips   5
+
+map
+# # # # # # # # #
+# @       $ # $ #
+#   # # # # # # #
+#   #   H E     #
+#   #   # # #   #
+#   #           #
+#       #   # # #
+# $     # $ # $ #
+# # # # # # # # #
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      #
+end
+
+%%%
+
+title   Keys
+passwd  ZQFV
+
+tiles
+A	blue key
+B	red key
+C	yellow key
+D	blue door
+F	red door
+G	green door
+I	yellow door
+J	green key
+end
+
+map
+# # # # # # # # #
+# # $ # $ # A $ #
+# # B # C #     #
+# # D # F #     #
+# @             #
+# # G # I # G # #
+# #   # J #   H #
+# # $ # $ # H E #
+# # # # # # # # #
+end
+
+%%%
+
+title   Barrier
+passwd  ECMN
+chips   5
+
+map
+# # # # # # # # #
+# @     |   H E #
+#   | _ _ ~ ~ ~ #
+#   | |    | |$ #
+#   | | $  |  ~ #
+#   | | $  |  _ #
+#   | _ _ _|_|$ #
+# $ |           #
+# # # # # # # # #
+end
+
+%%%
+
+title   Dirt & Gravel
+passwd  LFUH
+chips   3
+
+map
+# # # # # # # # #
+# @ ; ; ; ; ; $ #
+# # # # # # # ; #
+# $ : : : : # ; #
+# # # : : : # ; #
+# E H : : : : ; #
+# # # : : : # ; #
+# $ : : : : # ; #
+# # # # # # # # #
+end
+
+%%%
+
+title   Blocks
+passwd  KXUY
+chips   2
+
+map
+# # # # # # # # #
+# @ # # E # #   #
+# []  # H #   []#
+#               #
+# # #       # # #
+#               #
+#   []  #   []  #
+# # $ # # # $ # #
+# # # # # # # # #
+end
+
+%%%
+
+title   Use Blocks
+passwd  KBJI
+
+map
+# # # # # # # # #
+# @ #     E     #
+#   #           #
+# []# , , , , , #
+# , # [][][][][]#
+#   #           #
+#   # # #       #
+#     []  6     #
+# # # # # # # # #
+end
+
+%%%
+
+title   One way
+passwd  HWNR
+chips   3
+
+tiles
+A	popup wall
+end
+
+map
+# # # # # # # # #
+# @ # $         #
+# $ # # #       #
+# A # E A H     #
+#   # # #       #
+#   # # # #     #
+#       A A     #
+#   # # # #   $ #
+# # # # # # # # #
+end
+
+%%%
+
+title   One way II
+passwd  SRMY
+chips   5
+
+tiles
+A	popup wall
+end
+
+map
+# # # # # # # # #
+# @ # $     A $ #
+# $ # # # A # A #
+# A # E A H     #
+# A # # #       #
+# A # # # #     #
+#     A   A     #
+# $ # # # #   $ #
+# # # # # # # # #
+end
+
+%%%
+
+title   Boots
+passwd  UBLF
+
+tiles
+A	fire boots
+B	water boots
+end
+
+map
+# # # # # # # # #
+# A # $ # , & $ #
+# , # , # , &   #
+#         , &   #
+# @   B   , &   #
+#         , &   #
+#     # # # # H #
+# $   & $ # # E #
+# # # # # # # # #
+end
+
+%%%
+
+title   Green Switch
+passwd  BWWU
+chips   5
+
+tiles
+A	toggle open
+B	toggle closed
+C	green button
+end
+
+map
+# # # # # # # # #
+# @ A       H E #
+#   # B # # # # #
+# C # C $ A   C #
+#   #     # # B #
+# B #       A   #
+#   $ # # # # B #
+# $ C $ A   $ C #
+# # # # # # # # #
+end
+
+%%%
+
+title   Green Switch II
+passwd  EFDO
+chips   6
+
+tiles
+A	green button
+B	toggle closed
+C	toggle open
+end
+
+map
+# # # # # # # # #                                     # # # # #
+# @     A $ H E #                                     # # # # #
+# # B # # # # # #                                     # # # # #
+#     # $ B   A #                                     # # # # #
+# A   C   # # B #                                     # # # # #
+# C # # A   C   #                                     # # # # #
+#   $   # # # B #                                     # # # # #
+# $ A $ #   $ A #                                     # # # # #
+# # # # # # # # #                                     # # # # #
+end
+
+%%%
+
+title   Ice
+passwd  LBOF
+chips   5
+
+map
+# # # # # # # # #
+#   @   # $ = $ #
+# = = = = = = = #
+# = = = = = = = #
+#   # # # = # $ #
+# $     # = # # #
+# = = = #   # # #
+# # #   $   H E #
+# # # # # # # # #
+end
+
+%%%
